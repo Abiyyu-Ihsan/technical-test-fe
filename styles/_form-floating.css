@@ -1,0 +1,31 @@
+.form-floating > input {
+  @apply block;
+  @apply rounded-md;
+  @apply px-3;
+  @apply w-full;
+  @apply py-3;
+  @apply text-sm sm:text-base ;
+  @apply text-[#171923];
+  /* @apply bg-white; */
+  @apply border;
+  @apply appearance-none;
+  @apply focus:outline-none;
+  @apply focus:ring-0;
+}
+
+.form-floating > label {
+  @apply absolute;
+  @apply cursor-pointer;
+  @apply text-sm;
+  @apply text-gray-400;
+  /* @apply text-[#171923]; */
+  @apply duration-300;
+  @apply transform;
+  @apply top-3.5;
+  /* @apply z-10; */
+  @apply origin-[0];
+  @apply left-3;
+  @apply -translate-y-4;
+  @apply scale-75;
+  @apply pt-1;
+}

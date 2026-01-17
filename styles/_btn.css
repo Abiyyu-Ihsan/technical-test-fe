@@ -1,0 +1,30 @@
+.btn {
+  @apply transition;
+  @apply duration-200;
+  @apply border-2;
+  @apply border-white;
+  @apply border-opacity-20;
+  @apply shadow-sm;
+  @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
+  /* @apply py-3;
+  @apply px-8; */
+  @apply rounded-md;
+  @apply font-medium;
+  @apply cursor-pointer;
+  @apply focus:ring-4;
+  @apply focus:ring-primary;
+  @apply focus:ring-opacity-20;
+  &:hover:not(:disabled) {
+    @apply bg-opacity-90;
+    @apply border-opacity-90;
+  }
+  &:not(button) {
+    @apply text-center;
+  }
+  &:disabled {
+    @apply opacity-70;
+    @apply cursor-not-allowed;
+  }
+}
