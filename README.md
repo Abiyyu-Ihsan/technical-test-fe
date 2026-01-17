@@ -15,8 +15,10 @@ bun dev
 ```
 
 1. Npm Install.
-2. npm run dev
-3. http://localhost:3000/login
+2. API_URL=
+3. SECRET_KEY=`f9Tg1aJDB77INX0OtQzWVV4iFF0/5rG/6vJ23ulC8B0=`. 
+4. npm run dev
+5. http://localhost:3000/login
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
